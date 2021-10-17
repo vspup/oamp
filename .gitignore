@@ -17,6 +17,7 @@ plinux/.petalinux/*
 *.log
 plinux/components/plnx_workspace
 plinux/components/yocto
+plinux/project-spec/meta-user/conf/petalinuxbsp.conf
 
 
 # SW vitis
