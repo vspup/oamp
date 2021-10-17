@@ -38,4 +38,4 @@ Make the script an executable file and run it to run. This script will create:
 - rtapp
 - plapp
 
-After the script finishes successfully, you can clone the repository to this folder.
+After the script finishes successfully, you can clone the repository to this folder. We can use spetial script _git_clone.sh
