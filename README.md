@@ -5,7 +5,8 @@ Requirements!!!
 Vitis 2020.2
 Petalinux 2020.2
 
-Attention!!!
+**Attention!!!**
+
 Before cloning the repository, you need to download the archive - https://github.com/vspup/oamp/blob/master/oamp.tar.xz. 
 Copy the archive to the folder where the project will be located. 
 Unpack the archive in this park. 
@@ -37,4 +38,4 @@ Make the script an executable file and run it to run. This script will create:
 - rtapp
 - plapp
 
-After the script finishes successfully, you can clone the repository to this folder.
+After the script finishes successfully, you can clone the repository to this folder. We can use spetial script _git_clone.sh
