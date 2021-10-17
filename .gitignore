@@ -1,0 +1,34 @@
+# main
+/*.sh
+*.sh~
+/*.tcl
+.Xil
+
+# petalinux
+plinux/*/*/config.old
+plinux/*/*/rootfs_config.old
+plinux/build/
+plinux/images/linux/
+plinux/pre-built/linux/
+plinux/.petalinux/*
+!plinux/.petalinux/metadata
+*.o
+*.jou
+*.log
+plinux/components/plnx_workspace
+plinux/components/yocto
+
+
+# SW vitis
+sw_vitis/*
+# src files plapp
+!sw_vitis/plapp/
+sw_vitis/plapp/*
+!sw_vitis/plapp/src/
+# src files rtapp
+!sw_vitis/rtapp/
+sw_vitis/rtapp/*
+!sw_vitis/rtapp/src/
+# src files mps2
+!sw_vitis/mps2/
+sw_vitis/mps2/.project

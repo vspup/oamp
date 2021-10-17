@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo -e "\nstart auto amp\n\n"
+
+
+echo rtapp > /sys/class/remoteproc/remoteproc0/firmware
+echo start > /sys/class/remoteproc/remoteproc0/state
+
+/usr/bin/plapp
+
+echo stop > /sys/class/remoteproc/remoteproc0/state
+
+echo -e "\nstop auto amp\n\n"

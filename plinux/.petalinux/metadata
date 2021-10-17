@@ -1,0 +1,6 @@
+PETALINUX_VER=2020.2
+VALIDATE_HW_CHKSUM=1
+HARDWARE_PATH=/home/volo/xilinx/prj/te0821/oamp/plinux/test_board_3eg_1e_2gb.xsa
+HARDWARE_CHECKSUM=f2b01ccedb218c06c362afeb3c2fbadd
+YOCTO_SDK=267ec34beec0964aff190e9bebb3cc43
+RFSCONFIG_CHKSUM=e002b7c8bbef10bbff2069b5955d32bf
