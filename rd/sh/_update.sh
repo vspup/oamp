@@ -15,11 +15,11 @@ xsct ./_compile.tcl
 echo ""
 echo "--  Update app files"
 echo "--  plapp"
-cp ./vitis_workspace/plapp/Release/plapp.elf ./${pl_folder}/project-spec/meta-user/recipes-apps/plapp/files/
+cp ./sw_vitis/plapp/Release/plapp.elf ./${pl_folder}/project-spec/meta-user/recipes-apps/plapp/files/
 cp ./${pl_folder}/project-spec/meta-user/recipes-apps/plapp/files/plapp.elf ./${pl_folder}/project-spec/meta-user/recipes-apps/plapp/files/plapp
 rm ./${pl_folder}/project-spec/meta-user/recipes-apps/plapp/files/plapp.elf
 echo "--  rtapp"
-cp ./vitis_workspace/rtapp/Release/rtapp.elf ./${pl_folder}/project-spec/meta-user/recipes-apps/rtapp/files/
+cp ./sw_vitis/rtapp/Release/rtapp.elf ./${pl_folder}/project-spec/meta-user/recipes-apps/rtapp/files/
 cp ./${pl_folder}/project-spec/meta-user/recipes-apps/rtapp/files/rtapp.elf ./${pl_folder}/project-spec/meta-user/recipes-apps/rtapp/files/rtapp
 rm ./${pl_folder}/project-spec/meta-user/recipes-apps/rtapp/files/rtapp.elf
 
