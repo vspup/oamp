@@ -36,7 +36,7 @@ bool f_cmd = false;
 // me variable
 int on_off = 0;
 int V = 0, I = 0;
-int T[12] = {200, 201, 202, 203, 4, 5, 6, 77, 89, 109, 110, 111};
+int T[12] = {200, 201, 202, 203, 404, 505, 606, 77, 89, 109, 110, 111};
 
 Command_Codes code;
 
