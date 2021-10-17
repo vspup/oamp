@@ -21,15 +21,13 @@ You should end up with a file structure like this:
   
 In the file - _create.sh, you need to make changes in accordance with your location of the Xilinx and Petalinux tools.
   
-  # ****
   PLDIR=/home/volo/xilinx/Petalinux/2020.2
   VITISDIR=/home/volo/xilinx/Vitis/2020.2
 
 In addition, these two variables contain the path to the folder in which the downloaded files will be cached.
   
   DLSTR="DL_DIR = \"/home/volo/xilinx/Petalinux/2020.2/yocto/downloads\""
-  SSSTR="SSTATE_DIR = \"/home/volo/xilinx/Petalinux/2020.2/yocto/sstate-cache\""
-  # ****
+  SSSTR="SSTATE_DIR = \"/home/volo/xilinx/Petalinux/2020.2/yocto/sstate-cache\""  
 
 Make the script an executable file and run it to run. This script will create:
 - plinux - petalinux project
