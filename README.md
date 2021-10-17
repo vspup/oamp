@@ -5,7 +5,8 @@ Requirements!!!
 Vitis 2020.2
 Petalinux 2020.2
 
-Attention!!!
+**Attention!!!
+
 Before cloning the repository, you need to download the archive - https://github.com/vspup/oamp/blob/master/oamp.tar.xz. 
 Copy the archive to the folder where the project will be located. 
 Unpack the archive in this park. 
